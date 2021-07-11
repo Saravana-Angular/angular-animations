@@ -124,4 +124,12 @@ export class AppComponent {
       this.list.splice(this.list.indexOf(item), 1);
     }
 
+    onAnimationStarted(event) {
+      console.log(event);
+    }
+
+    onAnimationEnded(event) {
+      console.log(event);
+    }
+
 }
